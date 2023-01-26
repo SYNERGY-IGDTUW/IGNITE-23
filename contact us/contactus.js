@@ -1,3 +1,6 @@
+function football(){
+    location.href = "https://www.youtube.com/watch?v=hzOvS5C1Fw8";
+}
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -12,9 +15,3 @@ document.querySelectorAll(".nav-link").forEach((link) =>
     navMenu.classList.remove("active");
   })
 );
-
-
-$(document).on("click", '[data-toggle="lightbox"]', function (event) {
-  event.preventDefault();
-  $(this).ekkoLightbox();
-});

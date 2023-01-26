@@ -555,3 +555,20 @@ padding: 0 48px !important;
 #footer .credits a:hover {
   color: #FC9918;
 }
+
+
+.where
+{
+  text-decoration: none;
+  color:#e82020;
+}
+.where a:hover
+{
+  text-decoration: none;
+  color:#e82020;
+}
+
+
+.row {
+  margin: 15px;
+}
