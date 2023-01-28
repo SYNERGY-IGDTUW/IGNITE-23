@@ -15,6 +15,11 @@ body {
   position: inherit;
 
 }
+.row a:hover 
+{
+  animation: heartBeat;
+  animation-duration: 2s;
+}  
 /* Navbar */
 .nav-section{
   position: sticky;
@@ -28,7 +33,13 @@ backdrop-filter: blur(7.4px);
 -webkit-backdrop-filter: blur(7.4px);
 border: 1px solid rgba(17, 17, 17, 0.13);
 }
+.logo1
+{
+  height:100%;
+}
 .logo{
+  display:inline-block;
+  height:100%;
   width:80px;
   padding: 4px;
 }
