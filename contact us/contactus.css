@@ -45,14 +45,20 @@ backdrop-filter: blur(7.4px);
 -webkit-backdrop-filter: blur(7.4px);
 border: 1px solid rgba(17, 17, 17, 0.13);
 }
+.logo1
+{
+  height:100%;
+}
 .logo{
+  display:inline-block;
+  height:100%;
   width:80px;
   padding: 4px;
 }
 .item, img{
   height: 100% ;
   width:  100% ;
-  /* border: 1px solid red; */
+  /*border: 1px solid red; */
 }
 
 .nav-item{
@@ -135,9 +141,6 @@ padding: 0 48px !important;
 .navbar {
   padding: 10px !important;
 }
-  .logo{
-    width:70px;
-  }
   .hamburger{
     display: block;
   }
@@ -299,12 +302,18 @@ padding: 0 48px !important;
 
 .contact-form-container {
   background-image: url('pictures/bg.png');
+  font-family: 'customfont';
+}
+.abc
+{
+  font-family: 'Brush Script MT (cursive)';
 }
 
 .contact-us {
   position: relative;
   width: 250px;
   background-image: url('pictures/bg2.png');
+  font-family: 'Montserrat', sans-serif;
   overflow: hidden;
 }
 .contact-us:before {
@@ -436,4 +445,10 @@ form button {
 
 .contact-form {
   padding-bottom: 40px;
+}
+.ab
+{
+  font-family: 'Brush Script MT (cursive)';
+  font-size:30px;
+  color:#e82020;
 }

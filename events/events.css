@@ -45,7 +45,13 @@ backdrop-filter: blur(7.4px);
 -webkit-backdrop-filter: blur(7.4px);
 border: 1px solid rgba(17, 17, 17, 0.13);
 }
+.logo1
+{
+  height:100%;
+}
 .logo{
+  display:inline-block;
+  height:100%;
   width:80px;
   padding: 4px;
 }
@@ -433,4 +439,10 @@ padding: 0 48px !important;
 
 #footer .credits a:hover {
   color: #FC9918;
+}
+.abc
+{
+  font-family: 'Brush Script MT (cursive)';
+  font-size:30px;
+  color:#e82020;
 }

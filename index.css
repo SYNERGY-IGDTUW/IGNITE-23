@@ -15,6 +15,11 @@ body {
   position: inherit;
 
 }
+.row a:hover 
+{
+  animation: heartBeat;
+  animation-duration: 2s;
+}  
 /* Navbar */
 .nav-section{
   position: sticky;
@@ -28,7 +33,13 @@ backdrop-filter: blur(7.4px);
 -webkit-backdrop-filter: blur(7.4px);
 border: 1px solid rgba(17, 17, 17, 0.13);
 }
+.logo1
+{
+  height:100%;
+}
 .logo{
+  display:inline-block;
+  height:100%;
   width:80px;
   padding: 4px;
 }
@@ -571,4 +582,120 @@ padding: 0 48px !important;
 
 .row {
   margin: 15px;
+}
+.abc
+{
+  font-family: 'Brush Script MT (cursive)';
+  font-size:30px;
+  color:#e82020;
+}
+
+
+
+
+
+button {
+  text-decoration: none;
+  margin: 20px;
+}
+.custom-btn {
+  text-decoration: none;
+  color:#fff;
+  position:relative;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'customfont', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+
+/* 5 */
+.btn-5 {
+  text-decoration: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: #e82020;
+}
+.btn-5:hover {
+  text-decoration: none;
+  color:#fff;
+  color: #e82020;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  text-decoration: none;
+  color:#fff;
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #e82020;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  text-decoration: none;
+  color:#fff;
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  text-decoration: none;
+  color:#fff;
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+.container1 { 
+  text-decoration: none;
+  color:#fff;
+  height: 80px;
+  position: relative;
+}
+
+.center {
+  text-decoration: none;
+  color:#fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.register
+{
+  text-decoration: none;
+  color: #ddd;
+}
+a:hover
+{
+  text-decoration: none;
+  color: #ddd;
 }
