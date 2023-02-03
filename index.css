@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: 'customfont2';
-  src: url('font2.otf');
+  src: url('Blockletter.otf');
 }
 
 body {
@@ -154,7 +154,11 @@ padding: 0 48px !important;
   color: white;
   
 }
+.year{
+  font-family: 'customfont2',sans-serif;
+  font-size: 8vw;
 
+}
 .title{
   font-size: 2vw;
   font-family: 'Josefin Sans', sans-serif;
